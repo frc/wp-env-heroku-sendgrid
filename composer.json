@@ -1,0 +1,19 @@
+{
+  "name": "frc/wp-env-heroku-sendgrid",
+  "license": "MIT",
+  "type": "library",
+  "description": "Export Heroku sendgrid addon configuration for WordPress.",
+  "keywords": ["Heroku", "WordPress", "Sendgrid"],
+  "authors": [
+    {
+      "name": "Panu Ervamaa",
+      "email": "panu.ervamaa@frantic.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.3"
+  },
+  "autoload": {
+    "files": [ "src/Sendgrid.php" ]
+  }
+}
